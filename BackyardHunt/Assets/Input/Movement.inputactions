@@ -1,0 +1,56 @@
+{
+    "name": "Movement",
+    "maps": [
+        {
+            "name": "PlayerControls",
+            "id": "bfc4d37c-d8e6-452e-9247-646ccad872bc",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "3381a2cc-3ea8-4499-bbbc-61ca9bcad984",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "02713e9a-93d6-4602-89d2-8c306c1cea7b",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "aa77cf21-0470-4ba0-8325-99db83add499",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "894aa3e2-eba9-43c2-93a3-4308f2541f9f",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
