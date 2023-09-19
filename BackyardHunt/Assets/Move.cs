@@ -5,6 +5,8 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     public float speed = 100.0f;
+    public float rot;
+    public float rotSpeed;
    
 
     void Update()
@@ -13,9 +15,12 @@ public class Move : MonoBehaviour
         float transalatex = Input.GetAxis("Horizontal") * speed;
         transalatex *= Time.deltaTime;
         transalatez *= Time.deltaTime;
-        
-        gameObject.transform.Translate(transalatex, 0, transalatez);
 
+        rot = Input.GetAxis("See") * rotSpeed * Time.deltaTime;
+        Debug.Log(rot);
+        
+        transform.Translate(transalatex, 0, transalatez);
+        transform.eulerAngles = new Vector3(0, rot, 0);
 
     }
 }
