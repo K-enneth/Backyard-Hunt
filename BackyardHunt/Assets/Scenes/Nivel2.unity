@@ -5975,6 +5975,7 @@ MonoBehaviour:
   enemy: {fileID: 253888687}
   maxSpawn: 3
   enemyList: []
+  spawnTime: 5
 --- !u!4 &1729373717
 Transform:
   m_ObjectHideFlags: 0
