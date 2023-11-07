@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class AbstracZone : MonoBehaviour
 {
-
+  public Collider validationCollider;
   public List<GameObject> enemyList;
   public List<GameObject> allyList;
   public float timeRemaining;
@@ -16,10 +16,12 @@ public abstract class AbstracZone : MonoBehaviour
 
   public void addEnemy(GameObject enemy)
   {
+    enemyList.Add(enemy);
   }
 
   public void addAlly(GameObject ally)
   {
+    allyList.Add(ally);
   }
 
   public void deleteEnemy(GameObject enemy)
@@ -30,7 +32,7 @@ public abstract class AbstracZone : MonoBehaviour
   {
   }
 
-  public abstract Vector3 GetForce();
-
-
+  public abstract Vector3 ActivateAbitity();
+  
+  
 }
