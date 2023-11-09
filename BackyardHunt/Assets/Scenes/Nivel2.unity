@@ -909,11 +909,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7527337167773366696, guid: 2edc35bb3dda26b40b5600bb79c2a8e0, type: 3}
   m_PrefabInstance: {fileID: 226785608}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &231800522
-=======
---- !u!1 &253888687
->>>>>>> origin/Kenny
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -921,11 +917,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 231800523}
-  m_Layer: 0
-  m_Name: ZONES
-=======
   - component: {fileID: 253888692}
   - component: {fileID: 253888691}
   - component: {fileID: 253888690}
@@ -933,15 +924,11 @@ GameObject:
   - component: {fileID: 253888688}
   m_Layer: 0
   m_Name: Enemy
->>>>>>> origin/Kenny
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!4 &231800523
-=======
 --- !u!54 &253888688
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1022,23 +1009,11 @@ MeshFilter:
   m_GameObject: {fileID: 253888687}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &253888692
->>>>>>> origin/Kenny
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 231800522}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 211.80728, y: -235.70276, z: -290.59567}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1410204380}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-=======
   m_GameObject: {fileID: 253888687}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11, y: -190.6, z: -285}
@@ -1047,7 +1022,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
->>>>>>> origin/Kenny
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &266138546
 PrefabInstance:
@@ -1954,11 +1928,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526808700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: -179.43283, y: 139.01999, z: 53.5}
-=======
   m_LocalPosition: {x: -179.33, y: -183.6, z: 40}
->>>>>>> origin/Kenny
   m_LocalScale: {x: 8.2, y: 8.2, z: 8.2}
   m_ConstrainProportionsScale: 1
   m_Children:

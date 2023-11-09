@@ -20,15 +20,8 @@ public class Move : MonoBehaviour
         
 
         rot = Input.GetAxis("See") * rotSpeed * Time.deltaTime;
-<<<<<<< HEAD:BackyardHunt/Assets/Player/Scripts/Move.cs
         transform.Translate(transalatex, 0, transalatez);
         transform.eulerAngles = new Vector3(0, rot, 0);
 
-=======
-        //Debug.Log(Input.GetAxis("See"));
-        
-        transform.Translate(transalatex,0, transalatez);
-        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + rot, 0);
->>>>>>> origin/Kenny:BackyardHunt/Assets/Move.cs
     }
 }
